@@ -5,6 +5,12 @@ This repository contains a group project,AirBnB clone, for the ALX SE programme.
 The task is to build a clone of the popular AirBnB website.
 This first task is to create a the base classes for data modelling and a command-line interface to handle the data.
 
+## Installation
+
+* Clone this repository: `git clone "https://github.com/iandante77/AirBnB_clone"`
+* Run hbnb(interactively): `./console <command>`
+* Run hbnb(non-interactively): `echo "<command>" | ./console.py`
+
 ## Usage
 The console can be run in both interactive mode and non-interactive mode.
 
@@ -54,3 +60,9 @@ File | Description
 [state.py](./models/state.py) | State class models location information
 [place.py](./models/place.py) | Place class models accomodation information
 [review.py](./models/review.py) | Review class models user/host review information
+[file_storage.py](./models/engine/file_storage.py) | Handles serialization and deserialization of objects
+
+## Authors
+
+- [Ian Daniel](https://github.com/iandante77)
+- [Mike Odhiambo](https://github.com/MikeOdhiambo)
