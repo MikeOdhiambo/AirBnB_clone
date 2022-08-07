@@ -42,3 +42,15 @@ EOF  help  quit
 (hbnb) 
 $
 ```
+
+## Files
+
+File | Description 
+---- | ----------- 
+[base_model.py](./models/base_model.py) | Super class defining base model
+[user.py](./models/user.py) | User class models user information
+[amenity.py](./models/amenity.py) | Amenity class models amenity information
+[city.py](./models/city.py) | City class models location information
+[state.py](./models/state.py) | State class models location information
+[place.py](./models/place.py) | Place class models accomodation information
+[review.py](./models/review.py) | Review class models user/host review information
